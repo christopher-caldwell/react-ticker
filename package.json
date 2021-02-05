@@ -1,6 +1,6 @@
 {
   "name": "@caldwell619/react-ticker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny utility to show continually horizontal scrolling text in React web apps",
   "author": "christopher-caldwell",
   "license": "ISC",
