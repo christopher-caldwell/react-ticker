@@ -1,10 +1,10 @@
 {
   "name": "@caldwell619/react-ticker",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A tiny utility to show continually horizontal scrolling text in React web apps",
   "author": "christopher-caldwell",
   "license": "MIT",
-  "repository": "christopher-caldwell/@caldwell619/react-ticker",
+  "repository": "christopher-caldwell/react-ticker",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -12,9 +12,8 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
+    "build": "microbundle-crl --compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "build:dry-run": "run-s build",
     "lint": "eslint .",
