@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A tiny utility to show continually horizontal scrolling text in React web apps",
   "author": "christopher-caldwell",
-  "license": "MIT",
+  "license": "ISC",
   "repository": "christopher-caldwell/react-ticker",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
