@@ -1,15 +1,17 @@
 {
   "name": "@caldwell619/react-ticker-example",
-  "homepage": ".",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
     "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
     "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
-    "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": "http://christopher-caldwell.github.io/react-ticker",
   "dependencies": {
+    "@caldwell619/react-ticker": "link:..",
     "@testing-library/jest-dom": "link:../node_modules/@testing-library/jest-dom",
     "@testing-library/react": "link:../node_modules/@testing-library/react",
     "@testing-library/user-event": "link:../node_modules/@testing-library/user-event",
@@ -21,13 +23,12 @@
     "react-dom": "link:../node_modules/react-dom",
     "react-scripts": "link:../node_modules/react-scripts",
     "typescript": "link:../node_modules/typescript",
-    "@caldwell619/react-ticker": "link:.."
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "@babel/plugin-syntax-object-rest-spread": "^7.8.3",
+    "@types/uuid": "^8.3.4",
+    "gh-pages": "^3.2.3"
   },
   "browserslist": {
     "production": [

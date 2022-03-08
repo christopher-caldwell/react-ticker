@@ -4,6 +4,10 @@
 
 A tiny utility to show continually horizontal scrolling text in React web apps
 
+## Demo
+
+[Look at the top](https://christopher-caldwell.github.io/react-ticker/) of the page to see 2 items sliding by.
+
 ## Install
 
 ```bash
@@ -16,7 +20,7 @@ npm install --save @caldwell619/react-ticker
 
 It's supposed to be easy. Please submit an issue if it's not.
 
-### Base Bones
+### Bare Bones
 
 This example will expand to it's container, and scroll one item across the small box.
 
@@ -46,7 +50,7 @@ These are the props given to the main export.
 
 | Name         | Type                                 |      Required      | Purpose                                                                                                          |
 | ------------ | ------------------------------------ | :----------------: | ---------------------------------------------------------------------------------------------------------------- |
-| `items`      | `TickerItem[]`                       | :white_check_mark: | All of the items that will scroll across the element.                                                                                                                |
+| `items`      | `TickerItem[]`                       | :white_check_mark: | All of the items that will scroll across the element.                                                            |
 | `position`   | `top` or `bottom`                    |        :x:         | If provided, will glue the ticker to either the top or the bottom of the viewport                                |
 | `slideSpeed` | `CSSProperties['animationDuration']` |        :x:         | The duration the **entire** animation will take. This takes some tweaking, especially with various screen sizes. |
 
