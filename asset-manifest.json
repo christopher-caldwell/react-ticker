@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-ticker/static/css/main.9d8140c1.css",
-    "main.js": "/react-ticker/static/js/main.f2c323b8.js",
+    "main.css": "/react-ticker/static/css/main.e3d55278.css",
+    "main.js": "/react-ticker/static/js/main.1b79de3c.js",
     "index.html": "/react-ticker/index.html",
-    "main.9d8140c1.css.map": "/react-ticker/static/css/main.9d8140c1.css.map",
-    "main.f2c323b8.js.map": "/react-ticker/static/js/main.f2c323b8.js.map"
+    "main.e3d55278.css.map": "/react-ticker/static/css/main.e3d55278.css.map",
+    "main.1b79de3c.js.map": "/react-ticker/static/js/main.1b79de3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d8140c1.css",
-    "static/js/main.f2c323b8.js"
+    "static/css/main.e3d55278.css",
+    "static/js/main.1b79de3c.js"
   ]
 }
