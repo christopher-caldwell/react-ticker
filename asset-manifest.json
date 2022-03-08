@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-ticker/static/css/main.9d8140c1.css",
+    "main.js": "/react-ticker/static/js/main.f2c323b8.js",
+    "index.html": "/react-ticker/index.html",
+    "main.9d8140c1.css.map": "/react-ticker/static/css/main.9d8140c1.css.map",
+    "main.f2c323b8.js.map": "/react-ticker/static/js/main.f2c323b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d8140c1.css",
+    "static/js/main.f2c323b8.js"
+  ]
+}
